@@ -12,7 +12,7 @@ function App() {
         <Suspense fallback={<div>Loading...</div>}>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/form" element={<Form />} />
+            <Route path="https://netomi-assignment.vercel.app/form" element={<Form />} />
           </Routes>
         </Suspense>
       </Router>
